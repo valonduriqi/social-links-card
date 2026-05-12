@@ -6,8 +6,8 @@
 
   --white: hsl(0, 0%, 100%);
 
-  --ff-base: "Inter", serif;
-  --fw-thin: 400;
+  --ff-base: "Inter", sans-serif;
+  --fw-normal: 400;
   --fw-regular: 600;
   --fw-bold: 700;
 }
@@ -54,6 +54,11 @@ body {
   align-items: center;
 }
 
+.card__header {
+  display: grid;
+  gap: 4px;
+}
+
 .card {
   background-color: var(--grey-800);
   padding: 24px;
@@ -97,7 +102,7 @@ body {
   gap: 16px;
   text-align: center;
   width: 100%;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: var(--fw-bold);
 }
 
